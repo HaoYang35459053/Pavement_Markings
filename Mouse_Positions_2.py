@@ -19,6 +19,7 @@ def monitor_position():
             # Format the position as a string with X and Y coordinates right-justified to width 4
             positionStr = 'X: ' + str(x).rjust(4) + 'Y: ' + str(y).rjust(4)
             print(positionStr)  # Print the formatted position string
+            time.sleep(0.5)  # Pause for 0.5 seconds before recording the next position
     except Exception as e:  # Catch any exceptions that occur
         print(f"An error occurred: {e}")  # Print the error message
     finally:
