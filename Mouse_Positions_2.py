@@ -1,4 +1,12 @@
-# Version 2
+# The function of the program:
+# The program keeps printing the position of the mouse on the screen.
+
+# The codes is derived from the video made by Parwiz Forogh on YouTube: 
+# Video name: Python Automating GUI Getting Mouse Position | PyAutoGUI Tutorials
+# The video link:
+# https://www.youtube.com/watch?v=tnbMdtcUQew
+
+# Version 2 (There is Version One)
 import pyautogui    # Import the pyautogui library for mouse and keyboard control
 import threading    # Import the threading library for multi-threading support
 
