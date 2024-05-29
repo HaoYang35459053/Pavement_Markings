@@ -30,7 +30,7 @@ try:
     final_cropped_image = upper_cropped_image.crop((0, 0, 1920, 860))
 
     # Save the final cropped image with the file name
-    final_cropped_image_name = f"final_cropped_{image_name}.png"
+    final_cropped_image_name = f"{image_name}_Cropped.png"
     final_cropped_image_path = rf'C:\Users\asus\Desktop\Pavement_Markings\{final_cropped_image_name}'
     final_cropped_image.save(final_cropped_image_path)
     print(f'Final cropped image has been saved as {final_cropped_image_path}')
